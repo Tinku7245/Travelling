@@ -1,0 +1,218 @@
+/* Reset some default styles */
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f5f5f5; */
+}
+header nav li :hover{
+    background-color: rgb(0, 140, 255);
+    color: rgb(165, 42, 149);
+    border-radius: 10px;
+}
+
+header {
+    height: 100vh;
+ background: url("travel2.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ /* font-family: 'Raleway', sans-serif; */
+   
+}
+nav{
+    /* text-align: center; */
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Playfair Display', serif;
+    color: rgb(42, 101, 165);
+    font-size: 20px;
+    /* opacity: -2; */
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    /* color: white; */
+    font-weight: bold;
+}
+nav h1{
+    padding:  0px 10px;
+}
+.heading p{
+    font-size: 2.5rem;
+}
+.journey{
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    margin:  20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+.heading div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    /* color: rgb(0, 255, 255); */
+    color: rgb(32, 17, 106);
+
+
+}
+
+
+main {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header1{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.destination {
+    text-align: center;
+    max-width: 400px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destination img {
+    max-width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+/* .btn1 {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 8px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+} */
+.discount{
+    font-size: 20px;
+    color: aliceblue;
+    background: url("sunset.jpg");
+    height: 50vh;
+    background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ font-family: 'Playfair Display', serif;
+ justify-content: space-between;
+ padding: 25px;
+ margin: 30px;
+ /* border-top-right-radius: 300px; */
+ border-top-left-radius: 300px;
+
+
+    }
+    .discount h1,p{
+        margin: 20px;
+        align-items: center;
+        text-align: center;
+    }
+.choose{
+    /* margin: 20px; */
+    /* height: 40vh; */
+        align-items: center;
+        text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+        
+
+}
+/* .choose img{
+    width: 20%;
+    background-color: aliceblue;
+    /* text-align: center; */
+    /* padding: 1rem; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+/* } */ *
+.imgslider{
+    padding: 50px 200px 28px 250px;
+    margin: 2rem 43rem 2rem 5rem;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    width: 50%;
+    height: 50vh;
+    background-image: url("enjoy1.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: changeimage 10s linear infinite;
+
+
+}
+@keyframes changeimage{
+    0%{
+    background-image: url("enjoy1.jpg");
+    
+    
+
+
+    }
+    25%{
+        background-image: url("enjoy2.jpg");
+    
+        }50%{
+            background-image: url("enjoy3.jpg");
+        
+            }
+            100%{
+                background-image: url("enjoy4.jpg");
+            
+                }
+
+
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
